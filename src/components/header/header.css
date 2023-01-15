@@ -29,7 +29,6 @@ li{
     transition: 0.1s;
     outline: 3px solid rgb(201, 183, 225);
     border-radius: 10px;
-
 }
 .header-item:hover{
     outline: 3px solid rgb(164, 115, 230);
@@ -79,4 +78,76 @@ li{
 }
 .brand-name span{
     color: rgb(165, 42, 165);
+}
+
+.hamburger-menu-button{
+    display: none;  
+}
+
+
+@media screen and (max-width: 995px) {
+    .header-item{
+        font-size: 19px;
+        cursor: pointer;
+        padding: 10px 20px;
+        color: rgb(255, 243, 220);
+        transition: 0.1s;
+        outline: 3px solid rgb(201, 183, 225);
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header-menu{
+        position: absolute;
+        display: block;
+        top:0;
+        left: -100vw;
+        height: 100vh;
+        width: 50%;
+        background-color: black;
+        opacity: 0.7;
+        transition: 1s;
+    }
+
+    .header-menu-show{
+        display: block;
+        left: 0;
+    }
+
+
+    .header-menu ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 40px;
+    }
+    
+    .header-item{
+       outline: none;
+       font-size: 25px;
+    }
+
+    .header-button{
+        display: none;
+    }
+    
+    .hamburger-menu-button{
+        display: block;  
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .header-menu{
+        width: 100%;
+        z-index: 2;
+    }
+
+    .hamburger-menu-button{
+       z-index: 5;
+       color: white;
+    }
 }
