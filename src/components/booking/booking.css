@@ -100,10 +100,6 @@ input::placeholder {
 
 .booking-properties{
     display: flex;
-}
-
-.booking-properties{
-    display: flex;
     width: 80%;
     flex-wrap: wrap;
 }
@@ -126,5 +122,91 @@ input::placeholder {
     font-size: 18px;
     color: rgb(61, 0, 0);
 }
+
+
+@media screen and (max-width : 1450px) {
+    .booking-form{
+        width: 35%;
+    }
+    .booking-info{
+        width: 50%;
+    } 
+}
+
+@media screen and (max-width : 1320px) {
+    .booking-form{
+        width: 35%;
+    }
+    .booking-info-title{
+        text-align: center;
+    }
+    .booking-info-secondary-title{
+        text-align: center;
+    }
+    .booking-properties{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        column-gap: 10px;
+    }
+    .booking-item{
+        position: relative;
+        font-size: 40px;
+        width: 40%;
+        color: rgb(233, 174, 255);
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .booking{
+        flex-wrap: wrap;
+    }
+    .booking-form{
+        width: 50%;
+    }
+    .booking-info{
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+    } 
+    .booking-info-title{
+        color: rgb(255, 85, 0);
+        font-size: 50px;
+        margin-top: -30px;
+    }
+    
+    .booking-info-text{
+        text-align: center;
+    }
+
+    .booking-properties{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media screen and (max-width : 680px) {
+    .booking-item{
+        width: 90%;
+    }
+    .booking-form{
+        width: 370px;
+        background-color: rgb(26, 22, 22);
+        padding: 90px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 34px;
+    }
+
+    .booking-input{
+        width: 310px;
+        height: 37px;
+        font-size: 20px;
+    }
+}
+
 
 
