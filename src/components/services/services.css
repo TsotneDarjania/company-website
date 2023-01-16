@@ -1,0 +1,45 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(53, 13, 65);
+    align-items: center;
+}
+
+.services-secondary-title{
+    font-size: 28px;
+    color: rgb(233, 135, 14);
+    text-align: center;
+    width: 100vw;
+}
+
+.services-title{
+    font-size: 46px;
+    color: rgb(233, 135, 14);
+    text-align: center;
+    width: 100vw;
+    margin-top: -30px;
+}
+
+.services-title span{
+    color: rgb(255, 85, 0);;
+}
+
+.serivces-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 95%;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media screen and (max-width : 880px) {
+
+    .services{
+        padding: 0px;
+    }
+
+    
+}
