@@ -21,7 +21,7 @@ const Slider = () => {
     const [sliderIndex,setSlierIndex] = useState(1)
 
     
-    function getSliderImages(index){
+    function getSliderItems(index){
 
         let leftIndex = index - 1 < 0 ? 2 : index - 1;
         if(leftIndex > 2) leftIndex  = 0;
@@ -67,7 +67,7 @@ const Slider = () => {
   return (
     <div className='slider'>
 
-        {getSliderImages(sliderIndex)}
+        {getSliderItems(sliderIndex)}
 
         <div className="slider-buttons">
             <div onClick={() => { setSlierIndex((sliderIndex + (-1) + 3) % 3) }}  className="slider-arrow-button"> 

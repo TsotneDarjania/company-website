@@ -10,22 +10,20 @@
 .slider-item{
     display: block;
     position: absolute;
+    width: 100%;
     transition: 0.6s;
     opacity: 0;
 }
 
 .slider-item-center{
-    width: 100%;
     left: 0%;
     opacity: 1;
 }
 .slider-item-right{
-    width: 100%;
     left: 100%;
     opacity: 0;
 }
 .slider-item-left{
-    width: 100%;
     left: -100%;
     opacity: 0;
 }
@@ -83,4 +81,101 @@
     width: 70%;
     left: 15%;
     top: 35%;
+}
+
+@media screen and (max-width : 1300px) {
+    .slider-title{
+        font-size: 30px;
+        width: 70%;
+        left: 15%;
+        top: 40%;
+    }
+    .slider-text{
+        font-size: 22px;
+        width: 70%;
+        left: 15%;
+        top: 48%;
+    }
+
+    .slider-arrow-button{
+        font-size: 50px;
+    }
+    .slider-buttons{
+        bottom: 50%;
+        padding: 0px 60px;
+    }
+}
+
+@media screen and (max-width : 900px) {
+    .slider-image{
+        margin-left: -65%;
+        width: 220%;
+    }
+    .slider-title{
+        font-size: 30px;
+        width: 90%;
+        left: 5%;
+        top: 20%;
+    }
+    .slider-text{
+        font-size: 22px;
+        width: 90%;
+        left: 5%;
+        top: 28%;
+    }
+
+    .slider-arrow-button{
+        font-size: 40px;
+    }
+    .slider-buttons{
+        bottom: 40%;
+        padding: 0px 20px;
+    }
+}
+
+@media screen and (max-width : 700px) {
+    .slider-title{
+        font-size: 23px;
+        top: 40%;
+    }
+    .slider-text{
+        font-size: 17px;
+        top: 48%;
+    }
+
+    .slider-arrow-button{
+        font-size: 40px;
+    }
+    .slider-buttons{
+        bottom: 30%;
+        padding: 0px 20px;
+    }
+
+}
+
+@media screen and (max-width : 500px) {
+    .slider-image{
+        margin-left: -93%;
+        width: 300%;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .slider-title{
+        left: 5%;
+        top: 30%;
+    }
+    .slider-text{
+        left: 5%;
+        top: 45%;
+    }
+
+    .slider-arrow-button{
+        font-size: 40px;
+    }
+    .slider-buttons{
+        bottom: 40%;
+        padding: 0px 20px;
+    }
+
 }
