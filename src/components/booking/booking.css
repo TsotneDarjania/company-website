@@ -1,0 +1,130 @@
+.booking{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 221, 248);
+}
+
+.booking-form{
+    width: 25%;
+    background-color: rgb(26, 22, 22);
+    padding: 120px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+  }
+
+input::placeholder {
+    font-weight: bold;
+    opacity: 0.5;
+    color: rgb(255, 255, 255);
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1)
+            brightness(100%)
+            sepia(100%)
+            saturate(10000%)
+            hue-rotate(180deg)
+}
+
+.booking-input{
+    color: white;
+    font-size: 25px;
+    background-color: rgb(235, 214, 251);
+    width: 310px;
+    height: 47px;
+    border: none;
+
+    background: none;
+    border-bottom: 2px solid rgb(56, 51, 51);
+}
+
+.booking-button{
+    width: 240px;
+    height: 60px;
+    border: 2px solid rgb(205, 76, 11);
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    box-shadow: 0 0px 2px white;
+    background-color: rgb(253, 149, 84);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.booking-button:hover{
+    color: white;
+    background-color:rgb(157, 60, 0);
+}
+
+.booking-info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+.booking-info span{
+    color: black;
+}
+
+.booking-info-secondary-title{
+    color: rgb(233, 135, 14);
+    font-size: 30px;
+}
+
+.booking-info-title{
+    color: rgb(255, 85, 0);
+    font-size: 50px;
+    margin-top: -30px;
+}
+
+.booking-info-text{
+    color: rgb(37, 37, 37);
+    font-size: 21px;
+    margin-top: -30px;
+}
+
+.booking-properties{
+    display: flex;
+}
+
+.booking-properties{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.booking-item{
+    position: relative;
+    font-size: 40px;
+    width: 50%;
+    color: rgb(233, 174, 255);
+}
+
+.booking-properties-title{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 10px;
+    left: 50px;
+    color: rgb(70, 7, 93);;
+}
+.booking-properties-text{
+    font-size: 18px;
+    color: rgb(61, 0, 0);
+}
+
+

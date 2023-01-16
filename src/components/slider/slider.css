@@ -47,7 +47,7 @@
 .slider-arrow-button{
     cursor: pointer;
     font-size: 70px;
-    color: rgb(182, 161, 248);
+    color: rgb(146, 125, 187);
     transition: 0.3s;
 }
 .slider-arrow-button:hover{
