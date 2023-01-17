@@ -101,6 +101,10 @@
     .team-members-container{
         gap: 20px;
     }
+    .team-members{
+        padding: 0;
+        padding-bottom: 30px;
+    }
 }
 @media screen and (max-width: 900px) {
     .team-member-container-item{

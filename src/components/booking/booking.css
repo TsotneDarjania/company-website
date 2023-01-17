@@ -7,7 +7,7 @@
 
 .booking-form{
     width: 25%;
-    background-color: rgb(26, 22, 22);
+    background-color: rgb(198, 129, 230);
     padding: 120px 20px;
     display: flex;
     flex-direction: column;
@@ -193,7 +193,6 @@ input::placeholder {
     }
     .booking-form{
         width: 370px;
-        background-color: rgb(26, 22, 22);
         padding: 90px 20px;
         display: flex;
         flex-direction: column;

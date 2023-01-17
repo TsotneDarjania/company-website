@@ -82,5 +82,10 @@
     .pet-lover-text{
         margin-top: -15px;
     }
+}
 
+@media screen and (max-width: 995px) {
+    .footer-item{
+        width: 90%;
+    }
 }
