@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/company-website/static/css/main.9a913931.css",
+    "main.js": "/company-website/static/js/main.dfdbed60.js",
+    "static/media/carousel-3.jpg": "/company-website/static/media/carousel-3.f5130bccf7ac7e5cbe5d.jpg",
+    "static/media/carousel-2.jpg": "/company-website/static/media/carousel-2.bb755566d392a7dada10.jpg",
+    "static/media/carousel-1.jpg": "/company-website/static/media/carousel-1.26910c478fcfa3e58f26.jpg",
+    "static/media/team-3.jpg": "/company-website/static/media/team-3.b0a253448a555f0d2f5e.jpg",
+    "static/media/team-2.jpg": "/company-website/static/media/team-2.9cad0a5347d31a0b93c5.jpg",
+    "static/media/team-1.jpg": "/company-website/static/media/team-1.55a50ceb7f15b22b063f.jpg",
+    "static/media/team-4.jpg": "/company-website/static/media/team-4.1545f2f0b47881978447.jpg",
+    "index.html": "/company-website/index.html",
+    "main.9a913931.css.map": "/company-website/static/css/main.9a913931.css.map",
+    "main.dfdbed60.js.map": "/company-website/static/js/main.dfdbed60.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a913931.css",
+    "static/js/main.dfdbed60.js"
+  ]
+}
