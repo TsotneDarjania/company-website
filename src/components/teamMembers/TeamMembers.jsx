@@ -11,7 +11,7 @@ import team_member_4 from "../images/teamMembers/team-4.jpg"
 
 const TeamMembers = () => {
   return (
-    <div className='team-members'>
+    <div id='team' className='team-members'>
         <h4 className='team-members-secondary-text'> Team Member </h4>
         <h2 className='team-members-title'> <span> Meet Our </span> Team Member </h2>
 

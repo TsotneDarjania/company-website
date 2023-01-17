@@ -8,6 +8,12 @@
     align-items: center;
     padding: 0px 40px;
     background-color: rgb(201, 183, 225);
+    transition: 0.8s;
+}
+
+.expand{
+    padding-top: 40px;
+    opacity: 0.8;
 }
 
 li{

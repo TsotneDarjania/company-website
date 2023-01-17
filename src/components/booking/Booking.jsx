@@ -5,7 +5,7 @@ import { FaHouseUser, FaSeedling, FaHandScissors, FaTasks} from "react-icons/fa"
 
 const Booking = () => {
   return (
-    <div className='booking'>
+    <div id='booking' className='booking'>
         
         <div className='booking-form'>
             <input  type={"text"} placeholder="Your Name" className='booking-input' />

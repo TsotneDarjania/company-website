@@ -1,0 +1,86 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: black;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 0px 30px;
+}
+
+.footer-item-title{
+    color: rgb(233, 135, 14);
+    font-size: 24px;
+}
+
+.footer-item-text{
+    text-align: left;
+    font-size: 20px;
+    color: rgb(195, 195, 195);
+}
+.footer-item-text span{
+    color: white;
+    margin-right: 10px;
+}
+
+.footer-item-input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: rgb(85, 85, 85);
+    border-radius: 6px;
+    color: white;
+    margin-top: 18px;
+    font-size: 15px;
+}
+
+.submit-newsletter{
+    width: 100%;
+    height: 40px;
+    border:none;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: rgb(231, 104, 6);
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.submit-newsletter:hover{
+    background-color:rgb(38, 13, 0); ;
+}
+
+.pet-lover{
+    width: 40%;
+}
+
+.bottom-text{
+    color: white;
+    font-size: 20px;
+    bottom: 10px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+
+
+@media screen and (max-width: 995px) {
+    .footer-item{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        padding: 0px 30px;
+    }
+    .pet-lover{
+        width: 100%;
+    }
+    .pet-lover-text{
+        margin-top: -15px;
+    }
+
+}

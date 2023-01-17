@@ -5,7 +5,7 @@ import ServicesItem from './ServicesItem';
 
 const Services = () => {
   return (
-    <div className='services'>
+    <div id='services' className='services'>
         <h4 className='services-secondary-title'> Our Services </h4>
         <h2 className='services-title'>  <span> Premium  </span> Pet Services </h2>
 
